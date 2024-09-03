@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif, verdana, arial;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, #4aa8d4, #4ad4d4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 650px;
+    /* min-height: 600px; */
+    max-width: 50%;
+    /* border: 1px solid #000000; */
+}
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 4px;
+    padding: 0 15px;
+    /* border: 1px solid red; */
+    width: 500px;
+}
+
+.divider-radio {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    gap: 5px;
+}
+
+form .input-ele {
+    border: none;
+    outline: none;
+    border: 1px solid #000000;
+    width: 300px;
+    padding: 0 7px;
+}
+
+button {
+    margin-top: 15px;
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #2f97ff;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+button:hover {
+    border: 1px solid #2f97ff;
+    background-color: #ffffff;
+    color: #2f97ff;
+}
